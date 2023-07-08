@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 94724e91-c5c2-46b3-90e6-738f20f45515)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 23.495 87.63) (size 101.6 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 19d7b768-47af-48ae-afaf-f392eb7b67c7)
+    (property "Sheetname" "Control" (at 23.495 86.9184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Control.kicad_sch" (at 23.495 136.4746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ETH1CREF1B"
+        (path "/94724e91-c5c2-46b3-90e6-738f20f45515" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 24.13 21.59) (size 101.6 58.42) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6f321f4f-abba-48b7-b8fa-6d04e95fc58c)
+    (property "Sheetname" "Resisors" (at 24.13 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Resistors.kicad_sch" (at 24.13 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ETH1CREF1B"
+        (path "/94724e91-c5c2-46b3-90e6-738f20f45515" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 151.765 24.765) (size 90.17 57.15) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c1b08fea-43b5-4e95-9fe6-d02b4f80154b)
+    (property "Sheetname" "Relays" (at 151.765 24.0534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Relays.kicad_sch" (at 151.765 82.4996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ETH1CREF1B"
+        (path "/94724e91-c5c2-46b3-90e6-738f20f45515" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
